@@ -1,0 +1,67 @@
+body {
+    background-color: #f9fafb;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.cart-table {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #dc3545 !important;
+    color: white;
+    font-weight: 600;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.quantity {
+    width: 80px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.delete-btn {
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.delete-btn:hover {
+    transform: scale(1.05);
+}
+
+.cart-summary {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.checkout-btn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.checkout-btn:hover {
+    background-color: #cc1b2e;
+    transform: translateY(-2px);
+}

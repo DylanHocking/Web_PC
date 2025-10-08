@@ -1,0 +1,91 @@
+.carousel-item img{
+            max-height: 400px;
+            height: 100%    ;
+        }
+        .carousel-inner{
+            height: 300px;
+        }
+        .img{
+            
+            min-height: 50px;
+            margin-top: 20px;
+        }
+        .product-card .btn-add-to-cart {
+            width: 100%; 
+            background-color: #007bff; 
+            border-color: #007bff;
+        }
+        .btn-view-all {
+            background-color: transparent;
+            color: #dc3545;
+            border: 2px solid #dc3545;
+            padding: 10px 30px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .btn-view-all:hover {
+            background-color: #dc3545;
+            color: white;
+        }
+        .product-card .btn-add-to-cart:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+        .product-card .product-price {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #dc3545; 
+            margin-bottom: 0.5rem;
+        }
+        .product-card .card-title {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            min-height: 40px; 
+        }
+        .product-card .card-body {
+            padding: 1rem;
+            text-align: center;
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-between; 
+            flex-grow: 1; 
+        }
+        .product-card img {
+            width: 100%;
+            height: 180px; 
+            object-fit: cover;
+        }
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        }
+        .product-card {
+            border: 1px solid #dc3545;
+            border-radius: 0.25rem;
+            overflow: hidden;
+            box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+            transition: transform 0.2s ease-in-out;
+            height: 100%;
+        }
+        .section-header {
+            background-color: #dc3545;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .section-header h2 {
+            margin-bottom: 0;
+            font-size: 1.5rem;
+        }
+        .product-card .discount-badge {
+            background-color: #dc3545;
+            color: white;
+            padding: 0.25em 0.6em;
+            border-radius: 0.25rem;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
